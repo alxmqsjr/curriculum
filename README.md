@@ -30,6 +30,7 @@ possível serem incluídos através de plugins.
 == Instalação e Utilização ==
 
 1 - Faça o download dos arquivos zipados do github;
+
 2 - No painel do Wordpress, vá em Aparência -> Temas -> Adicionar novo;
 
 3 - Busque pelo arquivo compactado que você baixou e prossiga com a instalação;
@@ -53,7 +54,7 @@ Apesar de não ser a proposta do tema, é possível também criar páginas e um 
 10 - No menu direito do editor de página, na aba "Página" vá em "Atributos de Página";
 
 11 - No campo "Modelo", escolha a opção "Blog". Não é necessário digitar conteúdo no corpo da página, pois 
-Esta página retornará sua lista de posts, então você pode criar um blog dentro do seu currículo web.
+ela retornará sua lista de posts, assim você pode criar um blog dentro do seu currículo web.
 
 12 - Os posts são criados em Posts -> Adicionar novo;
 
