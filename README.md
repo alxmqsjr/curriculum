@@ -54,8 +54,3 @@ Apesar de não ser a proposta do tema, é possível também criar páginas e um 
 Esta página retornará sua lista de posts, então você pode criar um blog dentro do seu currículo web.
 
 13 - Os posts são criados em Posts -> Adicionar novo;
-
-
-== Copyright ==
-Sinta-se a vontade para usufruir e compartilhar e qualquer problema entre em contato pelo e-mail 
-alexandre-marques@live.com
