@@ -4,6 +4,7 @@ Tema Wordpress simples para criação de currículo web básico sem atribuição
 === Curriculum (Resume) ===
 
 Start Bootstrap (Front-end): https://github.com/StartBootstrap/
+
 Alexandre Marques (Wordpress): https://github.com/alxmqsjr/curriculum
 
 
