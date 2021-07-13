@@ -9,7 +9,9 @@
     .resume-section .text-primary, .resume-section .resume-section-link  {
     	color: <?php echo get_theme_mod('cr_color'); ?> !important;
     }
-    .resume-section .social-icons .social-icon:hover {background-color: <?php echo get_theme_mod('cr_color'); ?> !important;}
+    .resume-section .social-icons .social-icon:hover {
+        background-color: <?php echo get_theme_mod('cr_color'); ?> !important;
+    }
 
     .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary:hover, {
     	background-color: <?php echo get_theme_mod('cr_color'); ?> !important;
@@ -42,13 +44,13 @@
     	background-color: <?php echo get_theme_mod('cr_color'); ?> !important;
     }
 
-     .custom-control-input:checked ~ .custom-control-label::before, 
-     .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before, 
-     .custom-range::-webkit-slider-thumb, .custom-range::-moz-range-thumb, .custom-range::-ms-thumb {
+    .custom-control-input:checked ~ .custom-control-label::before, 
+    .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before, 
+    .custom-range::-webkit-slider-thumb, .custom-range::-moz-range-thumb, .custom-range::-ms-thumb {
     	background-color: <?php echo get_theme_mod('cr_color'); ?> !important;
     }
 
-     .page-item.active .page-link, .badge-primary, .progress-bar, .list-group-item.active {
+    .page-item.active .page-link, .badge-primary, .progress-bar, .list-group-item.active {
     	background-color: <?php echo get_theme_mod('cr_color'); ?> !important;
     }
 

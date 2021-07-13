@@ -11,13 +11,9 @@ if ( ! defined( '_S_VERSION' ) ) {
 if ( ! function_exists( 'curriculum_setup' ) ) :
 
 	function curriculum_setup() {
-
 		add_theme_support( 'automatic-feed-links' );
-
 		add_theme_support( 'title-tag' );
-
 		add_theme_support( 'post-thumbnails' );
-
 		add_theme_support(
 			'html5',
 			array(
@@ -30,7 +26,6 @@ if ( ! function_exists( 'curriculum_setup' ) ) :
 				'script',
 			)
 		);
-
 		add_theme_support(
 			'custom-background',
 			apply_filters(
@@ -40,14 +35,12 @@ if ( ! function_exists( 'curriculum_setup' ) ) :
 				)
 			)
 		);
-
 		add_theme_support( 'customize-selective-refresh-widgets' );
-
 		add_image_size( 'cr_image_cropped', 500, 500 );
-
 	}
 endif;
 add_action( 'after_setup_theme', 'curriculum_setup' );
+
 
 function curriculum_menus() {
 	register_nav_menus(
@@ -64,14 +57,13 @@ function curriculum_content_width() {
 }
 add_action( 'after_setup_theme', 'curriculum_content_width', 0 );
 
-// Controle do excerpt
+
 function curriculum_excerpt( $length ) {
     return 30;
 }
 add_filter( 'excerpt_length', 'curriculum_excerpt', 999 );
 
 
-//Scripts, comentários e arquivos de estilos
 function curriculum_scripts() {
 	wp_enqueue_style( 'curriculum-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'curriculum-style', 'rtl', 'replace' );
@@ -82,5 +74,5 @@ function curriculum_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'curriculum_scripts' );
 
-// Puxando o Customizer
+
 require get_template_directory() . '/inc/customizer.php';
