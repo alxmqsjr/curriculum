@@ -13,7 +13,7 @@ $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize
 )));
 
 
-//Nome do perfil
+// Nome do perfil
 $wp_customize->add_setting('cr_name', array('default'=>''));
 $wp_customize->add_control('cr_name', array(
 	'label' => __( 'Primeiro nome:', 'curriculum' ), 
@@ -21,7 +21,7 @@ $wp_customize->add_control('cr_name', array(
 	'type' => 'text', 
 ));
 
-//Sobrenome
+// Sobrenome
 $wp_customize->add_setting('cr_lastname', array('default'=>''));
 $wp_customize->add_control('cr_lastname', array(
 	'label' => __( 'Sobrenome:', 'curriculum' ), 
@@ -29,7 +29,7 @@ $wp_customize->add_control('cr_lastname', array(
 	'type' => 'text', 
 ));
 
-//Telefone
+// Telefone
 $wp_customize->add_setting('cr_phone', array('default'=>''));
 $wp_customize->add_control('cr_phone', array(
 	'label' => __( 'Telefone / Celular:', 'curriculum' ), 
