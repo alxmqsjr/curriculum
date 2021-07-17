@@ -82,7 +82,7 @@
                     <?php
                         wp_nav_menu(
                             array(
-                                'theme-location' => 'Principal',
+                                'theme-location' => 'Secundário',
                                 'fallback_cb' => false,
                                 'depth' => 1,
                                 'container' => false,
